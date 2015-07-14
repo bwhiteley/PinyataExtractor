@@ -8,5 +8,16 @@
 
 import Foundation
 
+
+
 print("Hello, World!")
+
+
+let fetcher = Fetcher()
+do {
+    try fetcher.run()
+}
+catch {
+    print(error)
+}
 

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		714DFC5D1B4CD113007EB52C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714DFC5C1B4CD113007EB52C /* API.swift */; };
+		71E022381B4CDC2E00F64175 /* Fetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E022371B4CDC2E00F64175 /* Fetcher.swift */; };
 		71F0C6671B4896F200355A6E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F0C6661B4896F200355A6E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		714DFC5C1B4CD113007EB52C /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		71E022371B4CDC2E00F64175 /* Fetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fetcher.swift; sourceTree = "<group>"; };
 		71F0C6631B4896F200355A6E /* PinyataExtractor */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PinyataExtractor; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F0C6661B4896F200355A6E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				71F0C6661B4896F200355A6E /* main.swift */,
+				714DFC5C1B4CD113007EB52C /* API.swift */,
+				71E022371B4CDC2E00F64175 /* Fetcher.swift */,
 			);
 			path = PinyataExtractor;
 			sourceTree = "<group>";
@@ -88,6 +94,7 @@
 		71F0C65B1B4896F200355A6E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = SwiftBit;
 				TargetAttributes = {
@@ -118,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				714DFC5D1B4CD113007EB52C /* API.swift in Sources */,
 				71F0C6671B4896F200355A6E /* main.swift in Sources */,
+				71E022381B4CDC2E00F64175 /* Fetcher.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +215,7 @@
 		71F0C66B1B4896F200355A6E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -213,6 +223,7 @@
 		71F0C66C1B4896F200355A6E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -236,6 +247,7 @@
 				71F0C66C1B4896F200355A6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
